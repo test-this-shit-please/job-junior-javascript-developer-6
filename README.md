@@ -6,7 +6,7 @@
 - You need to use VsCode. The whole team uses this IDE
 - You need to use Linux/Macos/WSL. We don't work on Windows
 - You need to install Bun.sh: "curl -fsSL https://bun.sh/install | bash"
-- You can use Opera Aria, ChatGPT, Copilot, Goolge, Brain.
+- You can use Opera Aria, ChatGPT, Copilot, Goolge, Brain
 
 # What are we testing?
 
@@ -26,8 +26,8 @@
 - Open the cloned repo in a terminal
 - Run the command "bun i"
 - Run the "bun test" command - all tests will fail
-- Implement "collection.ts" so that as many tests as possible succeed - the more tests succeed, the more points you get. You should not change anything beyond the examples in this file as part of this assignment.
+- Implement "collection.ts" so that as many tests as possible succeed - the more tests succeed, the more points you get. You should not change anything beyond the examples in this file as part of this assignment
 - Make sure eslint doesn't show errors in the IDE
 - Implement TypeScript types for "request" and "options" in "collection.ts"
-- Follow the same coding style used in this code. Yes, there is no documentation. You just need to write code in the same style as the previous developer.
-- Click the result on your fork. It is preferable to use the "Regular Commit" style.
+- Follow the same coding style used in this code. Yes, there is no documentation. You just need to write code in the same style as the previous developer
+- Click the result on your fork. It is preferable to use the "Regular Commit" style
