@@ -1,25 +1,33 @@
-# Junior JavaScript/TypeScript Developer Test
+# Test for Junior JavaScript/TypeScript Developers
 
-## Prerequirements
-- Estimation for the entire task is 4 hours
-- You need to use VsCode. Entire team uses this IDE
-- You need to use linux / macos / WSL. We don't work in Windows
-- You need bun.sh installed: "curl -fsSL https://bun.sh/install | bash"
+## Prerequisites
 
-## How to
-- Fork this repo
-- Clone your fork
-- Open cloned repo in terminal
-- Run "bun i"
-- Run "bun test" command - all tests will fail
-- Implement "collection.ts" to pass tests - more tests will pass more scores yout get
-- Do not change anything in "collection.test.ts"
-- Implement TypeScript types for "query" and "options" in "collection.ts"
-- Follow same code style that used in this code. Yes - there is no documentation. You just need to write code in the same style previous developer do
-- Push result to your fork. It's preferred to use "Conventional Commits" style
+- Our estimate of the time to complete the entire task is 4 hours
+- You need to use VsCode. The whole team uses this IDE
+- You need to use Linux/Macos/WSL. We don't work on Windows
+- You need to install Bun.sh: "curl -fsSL https://bun.sh/install | bash"
+- You can use Opera Aria, ChatGPT, Copilot, Goolge, Brain.
 
-# What we are testing?
-- Your understanding of TDD
-- Your understanging of TypeScript
+# What are we testing?
+
+- Your understanding of the TDD approach
+- Your understanding of TypeScript
 - Your basic knowledge of JavaScript
-- Your accuracy and performance
+- Your basic knowledge of English
+- Your accuracy and productivity
+- Your ability to communicate and ask questions
+- Your ability to read the task
+- Your ability to understand a task from a common sense point of view
+
+## How
+
+- Fork this repository
+- Clone your fork
+- Open the cloned repo in a terminal
+- Run the command "bun i"
+- Run the "bun test" command - all tests will fail
+- Implement "collection.ts" so that as many tests as possible succeed - the more tests succeed, the more points you get. You should not change anything beyond the examples in this file as part of this assignment.
+- Make sure eslint doesn't show errors in the IDE
+- Implement TypeScript types for "request" and "options" in "collection.ts"
+- Follow the same coding style used in this code. Yes, there is no documentation. You just need to write code in the same style as the previous developer.
+- Click the result on your fork. It is preferable to use the "Regular Commit" style.
