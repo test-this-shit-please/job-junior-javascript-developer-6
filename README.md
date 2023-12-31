@@ -7,6 +7,7 @@
 - You need to use Linux/Macos/WSL. We don't work on Windows
 - You need to install Bun.sh: "curl -fsSL https://bun.sh/install | bash"
 - You can use Opera Aria, ChatGPT, Copilot, Goolge, Brain
+- Do not add any dependencies
 
 # What are we testing?
 
