@@ -24,6 +24,7 @@ module.exports = {
 		"no-tabs": "off",
 		"indent": ["error", "tab"],
 		"@typescript-eslint/indent": "off",
-		"@typescript-eslint/space-before-function-paren": "off"
+		"@typescript-eslint/space-before-function-paren": "off",
+		"@typescript-eslint/strict-boolean-expressions": "off"
 	}
 }
