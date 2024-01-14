@@ -92,7 +92,7 @@ test.skipIf(isDebug)('query users by empty query and combined sort by two fields
 	}
 
 	new TestUsersCollection(usersData)
-		.sortByCityAskAndAgeAsc()
+		.sortByNameDescAndAgeAsc()
 		.assertDataIsEqual(await usersCollection.find(query, options))
 
 	done()

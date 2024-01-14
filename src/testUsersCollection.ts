@@ -29,11 +29,21 @@ export class TestUsersCollection {
 		return this
 	}
 
-	sortByCityAskAndAgeAsc(): this {
+	sortByCityAscAndAgeAsc(): this {
 		const sortFn = (
 			a: UsersType,
 			b: UsersType
 		): number => a.city.localeCompare(b.city) || a.age - b.age
+
+		this.data.sort(sortFn)
+		return this
+	}
+
+	sortByNameDescAndAgeAsc(): this {
+		const sortFn = (
+			a: UsersType,
+			b: UsersType
+		): number => b.name.localeCompare(a.name) || a.age - b.age
 
 		this.data.sort(sortFn)
 		return this
